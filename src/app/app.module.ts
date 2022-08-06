@@ -7,6 +7,8 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { AsideComponent } from './shared/aside/aside.component';
 import { MainComponent } from './shared/main/main.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { PagenotfoundComponent } from './shared/pagenotfound/pagenotfound.component';
+import { ErrorpageComponent } from './shared/errorpage/errorpage.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
     NavbarComponent,
     AsideComponent,
     MainComponent,
-    SidebarComponent
+    SidebarComponent,
+    PagenotfoundComponent,
+    ErrorpageComponent
   ],
   imports: [
     BrowserModule
