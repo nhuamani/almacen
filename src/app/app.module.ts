@@ -9,6 +9,10 @@ import { MainComponent } from './shared/main/main.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { PagenotfoundComponent } from './shared/pagenotfound/pagenotfound.component';
 import { ErrorpageComponent } from './shared/errorpage/errorpage.component';
+import { LoginComponent } from './public/login/login.component';
+import { RegisterComponent } from './public/register/register.component';
+import { ForgotpasswordComponent } from './public/forgotpassword/forgotpassword.component';
+import { RecoverpasswordComponent } from './public/recoverpassword/recoverpassword.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { ErrorpageComponent } from './shared/errorpage/errorpage.component';
     MainComponent,
     SidebarComponent,
     PagenotfoundComponent,
-    ErrorpageComponent
+    ErrorpageComponent,
+    LoginComponent,
+    RegisterComponent,
+    ForgotpasswordComponent,
+    RecoverpasswordComponent
   ],
   imports: [
     BrowserModule
