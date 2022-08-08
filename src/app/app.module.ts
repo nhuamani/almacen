@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { PrivateModule } from './private/private.module';
 import { PublicModule } from './public/public.module';
 
 
@@ -11,7 +12,8 @@ import { PublicModule } from './public/public.module';
   ],
   imports: [
     BrowserModule,
-    PublicModule
+    PublicModule,
+    PrivateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
