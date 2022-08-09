@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-forgotpassword',
   templateUrl: './forgotpassword.component.html'
 })
-export class ForgotpasswordComponent implements OnInit {
+export class ForgotPasswordComponent implements OnInit {
 
   constructor() { }
 
